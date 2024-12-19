@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Home() {
-  return <div></div>;
+  return <h1>Redirecting...</h1>; // 기본적으로 비워둘 수도 있음
 }
