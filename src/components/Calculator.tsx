@@ -17,13 +17,13 @@ export default function Calculator() {
 
           {/* Time Input */}
           <div className="border-[1px] pl-[12px] pr-[16px] py-[14.5px] flex justify-between border-[#eaeaea] rounded-sm">
-            <h2 className="text-[#888888] font-[500]">Time</h2>
+            <h2 className="text-[#888888] text-[14px] font-[500]">Time</h2>
             <TfiTimer size={24} color="#b7b7b7" />
           </div>
 
           {/* Pace Input */}
           <div className="border-[1px] pl-[12px] pr-[16px] py-[14.5px] flex justify-between border-[#eaeaea] rounded-sm">
-            <h2 className="text-[#888888] font-[500]">Pace</h2>
+            <h2 className="text-[#888888] text-[14px] font-[500]">Pace</h2>
             <RiRunLine size={24} color="#b7b7b7" />
           </div>
 
@@ -62,10 +62,10 @@ export default function Calculator() {
         </form>
       </div>
       <div className="mx-4 my-[14px] rounded-[6.5px]">
-        <Image src="/image1.png" width={500} height={500} alt="광고1" />
+        <Image src="/image1.png" width={500} height={500} alt="광고1" priority />
       </div>
       <div className="mx-4 my-[14px] rounded-[6.5px]">
-        <Image src="/image2.png" width={500} height={500} alt="광고2" />
+        <Image src="/image2.png" width={500} height={500} alt="광고2" priority />
       </div>
     </section>
   );
