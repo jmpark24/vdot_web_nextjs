@@ -6,8 +6,8 @@ import React from 'react';
 const CalculatorPage = () => {
   return (
     <>
-      <main className="flex flex-col items-center min-h-screen bg-[#f7f7f7]">
-        <Header />
+      <Header />
+      <main className="flex flex-col items-center min-h-[80vh] bg-[#f7f7f7]">
         <Calculator />
       </main>
       <NavBar />
