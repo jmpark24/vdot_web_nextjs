@@ -7,7 +7,7 @@ const TrainingPage = () => {
   return (
     <>
       <Header />
-      <main className="flex flex-col items-center min-h-screen bg-[#f7f7f7] pb-[80px]">
+      <main className="flex flex-col items-center bg-[#f7f7f7] pb-[80px]">
         <Training />
       </main>
       <NavBar />
