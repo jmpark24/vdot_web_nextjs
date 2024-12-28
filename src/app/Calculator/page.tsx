@@ -7,7 +7,7 @@ const CalculatorPage = () => {
   return (
     <>
       <Header />
-      <main className="flex flex-col items-center min-h-[80vh] bg-[#f7f7f7]">
+      <main className="flex flex-col items-center min-h-[80vh] bg-[#f7f7f7] w-full overflow-x-auto hidden-scrollbar">
         <Calculator />
       </main>
       <NavBar />

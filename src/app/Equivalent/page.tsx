@@ -7,7 +7,7 @@ const EquivalentPage = () => {
   return (
     <>
       <Header />
-      <main className="flex flex-col items-center bg-[#f7f7f7] pb-[80px]">
+      <main className="flex flex-col items-center bg-[#f7f7f7] pb-[80px] w-full overflow-x-auto hidden-scrollbar">
         <Equivalent />
       </main>
       <NavBar />

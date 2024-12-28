@@ -3,7 +3,7 @@ import React from 'react';
 
 const Equivalent = () => {
   return (
-    <section className="w-full overflow-x-auto h-[120%]">
+    <section className="w-full overflow-x-auto hidden-scrollbar">
       <div className="mx-4 px-[14px] pt-[16px] pb-[16px] mb-[14px] bg-white rounded-[6.5px]">
         {/* Header Section */}
         <h2 className="text-gray-400 font-bold text-[11px] mb-[6px] gap-[25px]">
