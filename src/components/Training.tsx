@@ -17,16 +17,18 @@ const Training = () => {
         <div className="mt-[14px] rounded-[6.5px]">
           <Image
             src="/image3.png"
-            width={500}
-            height={500}
             alt="Find out your potential future race times"
             priority
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full"
           />
         </div>
 
         {/* First Table */}
-        <div className="w-full mt-[20px]">
-          <div className="flex gap-[25px]">
+        <div className="w-full mt-[20px] flex justify-center">
+          <div className="flex gap-[30px]">
             {/* Type Column */}
             <div className="w-[63px] min-w-[63px]">
               <div className="text-[13px] font-bold mb-[8px]">Type</div>
@@ -60,7 +62,7 @@ const Training = () => {
         </div>
 
         {/* Second Table: 1200M, 800M, 600M */}
-        <div className="w-full mt-[20px]">
+        <div className="w-full mt-[20px] flex justify-center">
           <div className="flex">
             <div className="w-[63px] min-w-[63px]">
               <div className="text-[13px] font-bold mb-[8px]">Type</div>
@@ -93,7 +95,7 @@ const Training = () => {
         </div>
 
         {/* Third Table: 400M, 300M, 200M */}
-        <div className="w-full mt-[20px]">
+        <div className="w-full mt-[20px] flex justify-center">
           <div className="flex">
             <div className="w-[63px] min-w-[63px]">
               <div className="text-[13px] font-bold mb-[8px]">Type</div>

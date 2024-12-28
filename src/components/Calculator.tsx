@@ -7,42 +7,42 @@ import Image from 'next/image';
 export default function Calculator() {
   return (
     <section className="w-full">
-      <div className="mx-4 px-[14px] pt-[28px] pb-[35px] bg-white rounded-[6.5px]">
-        <form className="space-y-[14px]">
+      <div className="pt-[28px] pb-[30px] px-[14px] mx-[14px] bg-white rounded-[6.5px]">
+        <form className="">
           {/* Distance Input */}
-          <div className="border-[1px] pl-[12px] pr-[16px] py-[14.5px] flex justify-between border-[#eaeaea] rounded-sm">
-            <h2 className="text-[#888888] text-[14px] font-[500]">Distance</h2>
+          <div className="h-[57px] border-[1px] px-[10px] py-[22px] flex justify-between items-center border-[#eaeaea] rounded-sm mb-[14px]">
+            <h2 className="text-[#888888] text-[12px] font-[500]">Distance</h2>
             <div className="inline-flex items-center justify-center">
-              <IoMdArrowDropdown size={24} color="#b7b7b7" />
+              <IoMdArrowDropdown size={20} color="#b7b7b7" />
             </div>
           </div>
 
           {/* Time Input */}
-          <div className="border-[1px] pl-[12px] pr-[16px] py-[14.5px] flex justify-between border-[#eaeaea] rounded-sm">
-            <h2 className="text-[#888888] text-[14px] font-[500]">Time</h2>
+          <div className="h-[57px] border-[1px] px-[10px] py-[22px] flex justify-between items-center border-[#eaeaea] rounded-sm mb-[14px]">
+            <h2 className="text-[#888888] text-[12px] font-[500]">Time</h2>
             <div className="inline-flex items-center justify-center">
-              <TfiTimer size={24} color="#b7b7b7" />
+              <TfiTimer size={16} color="#b7b7b7" />
             </div>
           </div>
 
           {/* Pace Input */}
-          <div className="border-[1px] pl-[12px] pr-[16px] py-[14.5px] flex justify-between border-[#eaeaea] rounded-sm">
-            <h2 className="text-[#888888] text-[14px] font-[500]">Pace</h2>
+          <div className="h-[57px] border-[1px] px-[10px] py-[22px] flex justify-between items-center border-[#eaeaea] rounded-sm mb-[20px]">
+            <h2 className="text-[#888888] text-[12px] font-[500]">Pace</h2>
             <div className="inline-flex items-center justify-center">
-              <RiRunLine size={24} color="#b7b7b7" />
+              <RiRunLine size={16} color="#b7b7b7" />
             </div>
           </div>
 
           {/* Buttons */}
-          <div className="flex justify-around items-center mt-[7px]">
-            <button className="flex flex-col items-center gap-[6px]">
-              <div className="flex flex-col gap-1 border-[2px] border-[#d9d9d9] rounded-full p-[6px] w-[30px]">
+          <div className="flex justify-between items-center">
+            <button className="flex flex-col items-center gap-[6px] w-[48px] h-[48px] m-[2px]">
+              <div className="flex flex-col gap-1 border-[2px] border-[#d9d9d9] rounded-full p-[6px] w-[30px] h-[30px]">
                 <div className="relative">
-                  <div className="rounded-full w-1 h-1 bg-black absolute top-[-1px] right-0"></div>
+                  <div className="rounded-full w-1 h-1 bg-black absolute top-[-1px] right-[-0.5px]"></div>
                   <div className="bg-[#101010] w-[15px] h-[2px] rounded-sm"></div>
                 </div>
                 <div className="relative">
-                  <div className="rounded-full w-1 h-1 bg-black absolute top-[-1px] right-[5.5px]"></div>
+                  <div className="rounded-full w-1 h-1 bg-black absolute top-[-1px] right-[5px]"></div>
                   <div className="bg-[#101010] w-[15px] h-[2px] rounded-sm"></div>
                 </div>
                 <div className="relative">
@@ -50,16 +50,18 @@ export default function Calculator() {
                   <div className="bg-[#101010] w-[15px] h-[2px] rounded-sm"></div>
                 </div>
               </div>
-              <div className="text-gray-500 text-[8px]">ADVANCED</div>
+              <div className="text-gray-500 text-[7px]">ADVANCED</div>
             </button>
+
             <button
               type="submit"
-              className=" py-[11px] bg-[#599E43] text-white rounded-full hover:bg-green-600"
+              className="border-[1px] px-[32px] py-[11px] bg-[#599E43] text-white rounded-full hover:bg-green-600"
             >
-              <div className="w-[120px] text-[13px] font-medium">Calculate</div>
+              <div className="w-[60px] p-[0px] m-[0px] text-[12px] font-[500] ">Calculate</div>
             </button>
-            <button className="flex flex-col items-center gap-[6px]">
-              <div className="flex flex-col gap-1 border-[2px] border-[#d9d9d9] rounded-full p-[6px] ">
+
+            <button className="flex flex-col items-center gap-[6px] w-[48px] h-[48px] m-[2px]">
+              <div className="flex flex-col gap-1 border-[2px] border-[#d9d9d9] rounded-full p-[6px] w-[30px] h-[30px]">
                 <div className="inline-flex items-center justify-center">
                   <GrPowerReset />
                 </div>
