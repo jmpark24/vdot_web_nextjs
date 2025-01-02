@@ -9,16 +9,7 @@ export default {
   theme: {
     extend: {
       // 스크롤바 숨기기 유틸리티 추가
-      scrollbar: {
-        hidden: {
-          scrollbarWidth: 'none', // Firefox
-          '-ms-overflow-style': 'none', // IE 10+
-          '&::-webkit-scrollbar': {
-            display: 'none', // Chrome, Safari
-          },
-        },
-      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 } satisfies Config;

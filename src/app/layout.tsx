@@ -29,7 +29,12 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-hide bg-[#f7f7f7]`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
